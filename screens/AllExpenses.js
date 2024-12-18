@@ -3,6 +3,8 @@ import ExpensesOutput from "../components/ExpensesOutput/ExpensesOutput";
 import { ExpensesContext } from "../store/expenses-context";
 
 function AllExpenses() {
+  const data = fetch("");
+
   const expensesCtx = useContext(ExpensesContext);
   return (
     <ExpensesOutput
